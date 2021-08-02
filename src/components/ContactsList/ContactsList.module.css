@@ -1,0 +1,34 @@
+.ContactsList {
+  width: 400px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--secondaryTextColor);
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.ContactsList button {
+  cursor: pointer;
+  display: inline-block;
+  
+  background-color: rgb(243, 75, 75);
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  transition: transform 250ms var(--timingFn);
+}
+
+.ContactsList button:hover {
+  background-color: red;
+}
